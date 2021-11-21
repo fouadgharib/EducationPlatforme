@@ -1,0 +1,115 @@
+section {
+  margin-bottom: 100px;
+}
+#section2 {
+  background-attachment: fixed;
+  background-image: url("/img/backgrounds3.png");
+  background-size: cover;
+}
+#section1 {
+  background-image: url("/img/background2.png");
+  background-size: cover;
+}
+#section3 {
+  /* background-attachment: fixed; */
+  background-image: url("/img/background1.png");
+  background-size: cover;
+}
+#section {
+  background-image: url("/img/background2.png");
+  background-size: cover;
+}
+.logo {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  /* font-family: "Estonia", cursive; */
+  font-family: "Merriweather Sans", sans-serif;
+}
+#mynavbar {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  /* font-family: "Estonia", cursive; */
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+}
+
+/* .login {
+  height: 800px;
+} */
+button[type="submit"] {
+  width: 100%;
+}
+.carte {
+  background-color: #fff;
+  position: relative;
+  /* box-shadow: 0px 1px 22px 5px rgba(0, 0, 0, 0.39); */
+  border-radius: 10px 10px 10px 10px;
+}
+.carte button {
+  background-color: white;
+  /* color: green; */
+  /* border: white; */
+}
+.active {
+  color: green;
+}
+.carzte::after {
+  position: absolute;
+  z-index: 10;
+  content: "";
+  width: 40px;
+  height: 40px;
+  /* border-top: 1px solid grey; */
+  /* border-left: 1px solid black; */
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: -2px -5px 20px 0px rgba(0, 0, 0, 0.21);
+  /* inset -2px -5px 20px 10px rgba(0, 0, 0, 0.21); */
+  background: linear-gradient(-45deg, #bbb 28px, transparent 0%);
+  right: 0;
+  bottom: 0;
+}
+.carte ul li ul {
+  display: none;
+}
+.carte ul li {
+  padding: 5px;
+  /* display: none; */
+}
+.carte ul li span {
+  cursor: pointer;
+}
+/* .carte ul li span i {
+  color: gold;
+} */
+.carte ul li ul li {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.carte ul li ul li:hover {
+  background-color: #bbb;
+  transform: scale(1.01);
+}
+.carte ul li ul li i {
+  color: red;
+  cursor: pointer;
+}
+footer {
+  background-color: #202d3a;
+  color: #c7d8d9;
+}
+footer a {
+  color: #c7d8d9;
+  text-decoration: none;
+}
