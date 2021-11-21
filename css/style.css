@@ -22,9 +22,14 @@ section {
 .logo {
   font-style: italic;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
   /* font-family: "Estonia", cursive; */
   font-family: "Merriweather Sans", sans-serif;
+}
+@media (max-width: 600px) {
+  .logo {
+    font-size: 35px;
+  }
 }
 #mynavbar {
   font-style: italic;
